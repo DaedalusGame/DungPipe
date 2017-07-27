@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+	"model": "dungpipe:pipe",
+	"textures": {
+		"outside": "blocks/planks_oak",
+		"inside": "blocks/hopper_inside",
+		"particle": "#outside"
+	},
+	"transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+	"inventory": [{}],
+	"facing": {
+      "north": { "y": 0 },
+	  "east": { "y": 90 },
+	  "south": { "y": 180 },
+	  "west": { "y": 270 }
+	}
+  }
+}

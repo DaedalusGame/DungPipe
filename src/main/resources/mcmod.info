@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dungpipe",
+  "name": "Dung Pipe",
+  "description": "A pragmatic solution to pulling items out of stubborn machines.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["BordListian"],
+  "credits": "Forge",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

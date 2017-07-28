@@ -1,0 +1,21 @@
+{
+  "result": {
+    "item": "dungpipe:dung_pipe"
+  },
+  "pattern": [
+    " SP",
+    "S S",
+    " S "
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "ore": "plankWood",
+      "type": "forge:ore_dict"
+    },
+    "S": {
+      "ore": "slabWood",
+      "type": "forge:ore_dict"
+    }
+  }
+}

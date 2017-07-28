@@ -1,0 +1,18 @@
+{
+  "result": {
+    "item": "dungpipe:sewer_pipe"
+  },
+  "pattern": [
+    "PSS"
+  ],
+  "type": "forge:ore_shaped",
+  "key": {
+    "P": {
+      "item": "dungpipe:dung_pipe"
+    },
+    "S": {
+      "ore": "ingotIron",
+      "type": "forge:ore_dict"
+    }
+  }
+}

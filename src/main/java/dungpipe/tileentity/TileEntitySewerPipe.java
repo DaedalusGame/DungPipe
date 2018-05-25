@@ -19,4 +19,9 @@ public class TileEntitySewerPipe extends TileEntityDungPipe {
 
         return container;
     }
+
+    @Override
+    public boolean hasFastRenderer() {
+        return true;
+    }
 }

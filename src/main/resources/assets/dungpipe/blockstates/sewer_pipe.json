@@ -5,6 +5,7 @@
 	"textures": {
 		"outside": "blocks/hopper_outside",
 		"inside": "blocks/hopper_inside",
+		"outlet": "dungpipe:blocks/metal_pipe_outlet",
 		"particle": "#outside"
 	},
 	"transform": "forge:default-block"

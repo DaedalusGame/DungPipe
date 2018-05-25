@@ -15,7 +15,7 @@ public class TileEntityDungPipe extends TileEntity implements ITickable {
     @Override
     public void update() {
         IBlockState state = world.getBlockState(pos);
-        if(state.getBlock() instanceof BlockDungPipe) {
+        if(state.getBlock() instanceof BlockDungPipe && !world.isRemote) {
             EnumFacing facing = state.getValue(BlockDungPipe.FACING);
             IItemHandler handler = getContainer(pos.offset(facing),facing);
             if(handler != null)
@@ -27,7 +27,7 @@ public class TileEntityDungPipe extends TileEntity implements ITickable {
 
                 if(!stack.isEmpty())
                 {
-                    EntityItem item = new EntityItem(this.getWorld(), pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5, stack);
+                    EntityItem item = new EntityItem(this.getWorld(), pos.getX() + 0.5, pos.getY() + 0.25, pos.getZ() + 0.5, stack);
                     item.motionX = 0;
                     item.motionY = 0;
                     item.motionZ = 0;
